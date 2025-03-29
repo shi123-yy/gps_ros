@@ -1,0 +1,14 @@
+# 忽略 ROS 编译生成的文件
+build/
+devel/
+install/
+log/
+src
+.vscode/
+*.catkin_workspace
+*.lock
+
+# 忽略其他通用文件（按需添加）
+*.pyc
+*~
+.DS_Store
